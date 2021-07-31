@@ -27,7 +27,7 @@ Starting the app, the user is provided with a text menu:
 0. Exit
 ```
 
-### Technical observations:
+## Technical observations:
 The app operates with SQLite database and managed with SQL queries using JDBC API. The application reads the database file name from the command line argument. Filename is passed to the program using -fileName argument, for example, -fileName db.s3db. The database file is created when the program starts, if it hasn't yet been created. And all created cards are stored in the database.
 The accounts are verified by mean of SQL queries as well as adding balance, deleting accounts, reading balance and making save transactions if one of the queries executions 
 
