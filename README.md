@@ -5,7 +5,9 @@ System that allows to create a banking account and manage an account passing log
 
 ![image](https://user-images.githubusercontent.com/33598585/127739230-bd35861d-f272-431c-a7da-05cd32901fdd.png)
 
-The system generates a valid, with accordance to [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), unique, 16-digit credit card number with a 4-dig pin code. In our banking system, the BIN must be 400000. These numbers ensure easy payments, and they also help prevent payment errors and fraud. The very last digit of a credit card is the check digit or checksum. It is used to validate the credit card number using the Luhn algorithm, which we will explain in the next stage of this project. For now, the checksum can be any digit you like.
+The system generates a valid, with accordance to [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), unique, 16-digit credit card number with a 4-dig pin code. In our banking system, the BIN must be 400000. 
+
+These numbers ensure easy payments, and they also help prevent payment errors and fraud. The very last digit of a credit card is the check digit or checksum. It is used to validate the credit card number using the Luhn algorithm, which we will explain in the next stage of this project. For now, the checksum can be any digit you like.
 
 Starting the app, the user is provided with a text menu:
 ```
